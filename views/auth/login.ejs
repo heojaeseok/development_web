@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css"/>
+</head>
+<body>
+    <form action="/auth/auth" method="post"  class="container">
+        <div>
+            <label>UserId:</label>
+            <input type="text" name="userid">
+        </div>
+        <div>
+            <label>Password:</label>
+            <input type="text" name="newItem">
+        </div>
+        <div>
+            <input class="btn btn-primary" type="submit" value="로그인">
+        </div>
+    </form>
+    <script src="/jquery/dist/jquery.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
